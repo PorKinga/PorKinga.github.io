@@ -30,6 +30,11 @@ body{
     margin-top: 20px;
 
 }
+
+.Krotko-o-Minionkach h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
 .Lista{
     test-align: center;
     background-color: #ffff00;
@@ -53,6 +58,7 @@ body{
 
 .wiecej-o-Minionkach h2{
     text-align: center;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
 }
 
 .ciekawostki-o-Minionkach {
@@ -66,6 +72,10 @@ body{
     text-align: center;
     font-weight: bold;
     text-shadow: 4px 4px 4px yellow;
+}
+
+.ciekawostki-o-Minionkach{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
 }
 
 .jeszcze-wiecej-o-Minionkach{
@@ -83,4 +93,18 @@ body{
 .geneza-Minionków{
     text-align: center;
     margin-top: 20px;
+}
+
+.geneza-Minionków h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.sukces-Minionków{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.sukces-Minionków h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
 }
