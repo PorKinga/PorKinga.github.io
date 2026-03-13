@@ -4,6 +4,13 @@ body{
     background-color: #b556f1;
 }
 
+.obok-siebie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .Minionki-header{
     height: 300px;
     width: 100%;
@@ -13,9 +20,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: contrast(110%);
     color: #b556f1;
     font-size:60px;
     font-family: 'Impact';
     text-shadow: 2px 2px 4px #000000;
     margin-top: 0;
+}
+
+.Krotko-o-Minionkach{
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.Lista{
+    background-color: #bd92ea;
+    border: inset 3px black;
 }
