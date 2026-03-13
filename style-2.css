@@ -3,5 +3,15 @@ body{
 }
 
 .Minionki-header{
+    height: 300px;
+    width: 600px;
     background-image: url('images/hq720.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b556f1;
+    font-family: 'Impact';
+    text-shadow: 2px 2px 4px #000000;
 }
