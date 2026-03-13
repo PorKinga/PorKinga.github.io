@@ -6,12 +6,15 @@ body{
 
 .obok-siebie{
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    align-items: stretch;
     padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
+    gap: 20px;
+}
+
+.Minionki-header, Krotko-o-Minionkach {
+    max-width: 500px;
+    flex:1;
 }
 
 .Minionki-header{
@@ -39,15 +42,79 @@ body{
     text-align: center;
 }
 
+.Krotko-o-Minionkach h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
 .Lista{
     border-radius: 20px;
     background-color: #bd92ea;
     border: inset 3px black;
     text-align: center;
+    width: fit-content;
 }
 
 .Lista h3 {
     text-decoration-line: underline;
     text-decoration-color: #b556f1;
     text-shadow: 1px 1px 2px #000000;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.wiecej-o-Minionkach{
+    text-align: center;
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.wiecej-o-Minionkach h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.ciekawostki-o-Minionkach{
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.ciekawostki-o-Minionkach h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+.jeszcze-wiecej-o-Minionkach{
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.jeszcze-wiecej-o-Minionkach h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+.geneza-Minionków{
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.geneza-Minionków h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+.sukces-Minionków{
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: #bd92ea;
+    border: inset 3px black;
+}
+
+.sukces-Minionków h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
 }
