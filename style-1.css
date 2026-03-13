@@ -27,6 +27,8 @@ body{
     padding: 20px;
     text-align: center;
     background-size: 80%;
+    margin-top: 20px;
+
 }
 .Lista{
     test-align: center;
@@ -34,7 +36,7 @@ body{
     border: solid 3px black;
     border-size: 60%;
     padding: 20px;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .Lista h3 {
@@ -46,6 +48,7 @@ body{
 
 .wiecej-o-Minionkach{
     text-align: center ;
+    margin-top: 20px;
 }
 
 .wiecej-o-Minionkach h2{
@@ -62,5 +65,22 @@ body{
     border: double 3px black;
     text-align: center;
     font-weight: bold;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 4px 4px 4px yellow;
+}
+
+.jeszcze-wiecej-o-Minionkach{
+    border-block: yellow;
+    border: double 3px black;
+    text-align: center;
+    border-size: 60%;
+    margin-top: 20px;
+}
+
+.jeszcze-wiecej-o-Minionkach h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.geneza-Minionków{
+    text-align: center;
+    margin-top: 20px;
 }
