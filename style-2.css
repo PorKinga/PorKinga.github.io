@@ -44,3 +44,9 @@ body{
     border: inset 3px black;
     text-align: center;
 }
+
+.Lista h3 {
+    text-decoration-line: underline;
+    text-decoration-color: #b556f1;
+    text-shadow: 1px 1px 2px #000000;
+}

@@ -33,12 +33,15 @@ body{
     background-color: #ffff00;
     border: solid 3px black;
     border-size: 60%;
+    padding: 20px;
+    margin:60% auto;
 }
 
 .Lista h3 {
     text-decoration-line: underline;
     text-decoration-color: goldenrod;
     text-shadow: 1px 1px 2px #000000;
+    text-align: center;
 }
 
 .wiecej-o-Minionkach{
