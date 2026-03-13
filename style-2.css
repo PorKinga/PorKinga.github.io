@@ -6,8 +6,10 @@ body{
 
 .obok-siebie{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -29,11 +31,13 @@ body{
 }
 
 .Krotko-o-Minionkach{
+    border-radius: 20px;
     background-color: #bd92ea;
     border: inset 3px black;
 }
 
 .Lista{
+    border-radius: 20px;
     background-color: #bd92ea;
     border: inset 3px black;
 }
