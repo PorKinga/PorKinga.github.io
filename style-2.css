@@ -11,6 +11,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 .Minionki-header{
@@ -21,6 +22,7 @@ body{
     background-position: center;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     filter: contrast(110%);
     color: #b556f1;
