@@ -45,9 +45,20 @@ body{
 }
 
 .wiecej-o-Minionkach{
-    text-align: right ;
+    text-align: center ;
 }
 
 .wiecej-o-Minionkach h2{
     text-align: center;
+}
+
+.ciekawostki-o-Minionkach {
+    text-align: left;
+    background-image: url('images/despicable-me-movies-cgi-minions-wallpaper-preview.jpg');
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    border: double 3px black;
+    text-align: center;
+    font-weight: bold;
 }
