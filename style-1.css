@@ -3,6 +3,16 @@ body{
 }
 
 .Minionki-header{
+    height: 648px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url('images/920713_1_07-10minions_standard.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #e1d855;
+    font-family: 'Courier New';
+    text-shadow: 2px 2px 4px #000000;
 }
 
