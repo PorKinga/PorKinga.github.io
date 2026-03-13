@@ -5,16 +5,17 @@ body{
 }
 
 .Minionki-header{
-    height: 500px;
-    width: 702px;
+    height: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('images/920713_1_07-10minions_standard.jpg');
     background-position: center;
+    background-size: cover;
     color: #e1d855;
     font-family: 'Courier New';
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 2px 2px 4px #000000;
     margin-top: 0;
 }
