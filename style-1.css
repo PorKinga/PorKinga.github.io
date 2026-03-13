@@ -42,5 +42,9 @@ body{
 }
 
 .wiecej-o-Minionkach{
+    text-align: right ;
+}
 
+.wiecej-o-Minionkach h2{
+    text-align: center;
 }
