@@ -34,7 +34,7 @@ body{
     border: solid 3px black;
     border-size: 60%;
     padding: 20px;
-    margin:60% auto;
+    margin: 0 auto;
 }
 
 .Lista h3 {
@@ -53,6 +53,7 @@ body{
 }
 
 .ciekawostki-o-Minionkach {
+    margin-bottom: 30px;
     text-align: left;
     background-image: url('images/despicable-me-movies-cgi-minions-wallpaper-preview.jpg');
     border-radius: 20px;
