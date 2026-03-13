@@ -62,4 +62,5 @@ body{
     border: double 3px black;
     text-align: center;
     font-weight: bold;
+    text-shadow: 2px 2px 2px white;
 }
