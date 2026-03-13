@@ -25,4 +25,21 @@ body{
     background-color: #FFFF99;
     border: double 3px black;
     padding: 20px;
+    text-align: center;
+    background-size: 80%;
+}
+.Lista{
+    test-align: center;
+    background-color: #ffff00;
+
+}
+
+.Lista h3 {
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.wiecej-o-Minionkach{
+
 }
