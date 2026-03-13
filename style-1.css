@@ -31,7 +31,8 @@ body{
 .Lista{
     test-align: center;
     background-color: #ffff00;
-
+    border: solid 3px black;
+    border-size: 60%;
 }
 
 .Lista h3 {
