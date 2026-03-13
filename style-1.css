@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #e1d855;
 }
 
@@ -9,10 +11,11 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url('images/920713_1_07-10minions_standard.jpg');
-    background-size: cover;
     background-position: center;
     color: #e1d855;
     font-family: 'Courier New';
+    font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
+    margin-top: 0;
 }
 

@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #b556f1;
 }
 
@@ -7,11 +9,13 @@ body{
     width: 600px;
     background-image: url('images/hq720.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: -20px -20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #b556f1;
+    font-size:50px;
     font-family: 'Impact';
     text-shadow: 2px 2px 4px #000000;
+    margin-top: 0;
 }
