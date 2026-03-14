@@ -37,14 +37,15 @@ body{
 }
 
 .Lista{
-    test-align: center;
+    text-align: center;
     background-color: #ffff00;
     border: solid 3px black;
     border-size: 60%;
     padding: 20px;
     margin-top: 20px;
     width: fit-content;
-    text-align: justify
+    text-align: justify;
+    margin: 50px auto 0 auto;
 }
 
 .Lista h3 {
@@ -55,7 +56,7 @@ body{
     font-family: "Lucida Handwriting", cursive, sans-serif;
 }
 
-.Lista ul{
+.Lista ul,.Lista ol{
     list-style: none;
     padding:0;
 }
@@ -64,12 +65,19 @@ body{
     content: "🍌";
     margin-right: 10px;
     display: inline-block;
+    text-align: center;
+    align-items: center;
 }
 
 .wiecej-o-Minionkach{
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto 0 auto;
     text-align: center ;
-    margin-bottom: 30px;
-    text-align: justify
+    width: 90%;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
 }
 
 .wiecej-o-Minionkach h2{
@@ -78,8 +86,8 @@ body{
 }
 
 .ciekawostki-o-Minionkach {
-    margin-bottom: 30px;
-    text-align: left;
+    margin: 30px auto 0 auto;
+    width: 90%;
     background-image: url('images/despicable-me-movies-cgi-minions-wallpaper-preview.jpg');
     border-radius: 20px;
     background-size: cover;
@@ -87,7 +95,7 @@ body{
     border: double 3px black;
     text-align: center;
     font-weight: bold;
-    text-shadow: 4px 4px 4px yellow;
+    text-shadow: 0px 0px 10px yellow;
 }
 
 .ciekawostki-o-Minionkach h2{
@@ -95,11 +103,14 @@ body{
 }
 
 .jeszcze-wiecej-o-Minionkach{
+    margin: 30px auto 0 auto;
+    width: 90%;
     border-block: yellow;
     border: double 3px black;
-    text-align: center;
     border-size: 60%;
+    text-align: center;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .jeszcze-wiecej-o-Minionkach h2{
@@ -107,8 +118,14 @@ body{
 }
 
 .geneza-Minionków{
+    margin: 30px auto 0 auto;
+    width: 90%;
     text-align: center;
     margin-top: 20px;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+    padding: 20px;
 }
 
 .geneza-Minionków h2{
@@ -116,11 +133,22 @@ body{
 }
 
 .sukces-Minionków{
+    margin: 30px auto 0 auto;
+    width: 90%;
     text-align: center;
     margin-top: 20px;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+    padding: 20px;
 
 }
 
 .sukces-Minionków h2{
     font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.stopka{
+    font-family: 'Courier New', monospace;
+    text-align: center;
 }

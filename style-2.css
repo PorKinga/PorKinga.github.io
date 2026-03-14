@@ -38,14 +38,21 @@ body{
     border-radius: 20px;
     background-color: #bd92ea;
     border: inset 3px black;
-    text-align: center;
     flex:2;
     padding: 20px;
     margin: 0 auto;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-shadow: 0px 0px 10px #45008f;
 }
 
 .Krotko-o-Minionkach h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    width: 300px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
 }
 
 .Lista{
@@ -58,6 +65,8 @@ body{
     padding: 20px;
     margin: 0 auto;
     align-items: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-shadow: 0px 0px 10px #45008f;
 }
 
 .Lista ul{
@@ -70,14 +79,14 @@ body{
 .Lista h3 {
     text-decoration-line: underline;
     text-decoration-color: #b556f1;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 5px 5px 10px #45008f;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+
 }
 
 .wiecej-o-Minionkach{
     margin: 0 auto 30px auto;
     width: 88%;
-    text-align: center;
     background-color: #bd92ea;
     border: inset 3px black;
     border-radius: 20px;
@@ -86,10 +95,25 @@ body{
     gap: 20px;
     max-width: 1200px;
     align-items: stretch;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 0px 0px 10px #45008f;
+
 }
 
 .wiecej-o-Minionkach h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+}
+
+.wiecej-o-Minionkach h3{
+    text-align: justify;
+    font-style: italic;
 }
 
 .ciekawostki-o-Minionkach{
@@ -102,12 +126,19 @@ body{
     border: inset 3px black;
     border-radius: 20px;
     align-items: stretch;
-
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 0px 0px 10px #45008f;
 
 }
 
 .ciekawostki-o-Minionkach h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
     text-align: center;
 }
 
@@ -121,11 +152,18 @@ body{
     border-radius: 20px;
     margin-bottom: 30px;
     align-items: stretch;
-
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 0px 0px 10px #45008f;
 }
 
 .jeszcze-wiecej-o-Minionkach h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    width: 500px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
     text-align: center;
 }
 
@@ -139,12 +177,24 @@ body{
     border-radius: 20px;
     margin-bottom: 30px;
     align-items: stretch;
-
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 0px 0px 10px #45008f;
 }
 
 .geneza-Minionków h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
+    width: 300px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+}
+
+.geneza-Minionków h3{
+    text-align: justify;
+    font-style: italic;
 }
 
 .sukces-Minionków{
@@ -157,9 +207,32 @@ body{
     border-radius: 20px;
     margin-bottom: 30px;
     align-items: stretch;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 0px 0px 10px #45008f;
 }
 
 .sukces-Minionków h2{
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
+    width: 300px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+}
+
+.sukces-Minionków h3{
+    text-align: justify;
+    font-style: italic;
+}
+.stopka{
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px #bd92ea;
+    align-items: center;
+    border-radius: 15px;
+    margin: 0 auto;
 }
