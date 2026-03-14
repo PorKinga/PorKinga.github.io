@@ -70,6 +70,11 @@ body{
     text-shadow: 0px 0px 10px #45008f;
 }
 
+.Lista li::before {
+    content: none !important;
+    display: none !important;
+}
+
 .Lista ul{
     list-style-type: disc !important;
     text-align: center;
@@ -238,5 +243,5 @@ body{
     align-items: center;
     border-radius: 15px;
     margin: 0 auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman' !important;
 }
