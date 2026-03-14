@@ -71,6 +71,7 @@ body{
 }
 
 .Lista ul{
+    list-style-type: disc !important;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -118,12 +119,13 @@ body{
 }
 
 .ciekawostki-o-Minionkach{
+    background-image: none !important;
     margin: 0 auto 30px auto;
     width: 88%;
     padding: 30px;
     margin-bottom: 30px;
     text-align: justify;
-    background-color: #bd92ea;
+    background-color: #bd92ea !important;
     border: inset 3px black;
     border-radius: 20px;
     align-items: stretch;
@@ -236,4 +238,5 @@ body{
     align-items: center;
     border-radius: 15px;
     margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
 }
