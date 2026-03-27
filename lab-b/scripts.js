@@ -34,6 +34,16 @@ init: function() {
     this.save();
     this.drawTasks();
   },
+  editTask: function (index) {
+    const task = this.tasks[index];
+    const newText = prompt("Edytuj pole:", task.text);
+    const newData = prompt("Edytuj date:", task.data);
+    if (newText !== null && newData !== null) {
+      this.tasks[index] = { text: newText.trim(), data: newData };
+      this.save();
+      this.drawTasks();
+    }
+  },
 
 drawTasks: function (filteredTasks, term = "") {
     const taskList = document.getElementById("Lista");
@@ -51,6 +61,7 @@ drawTasks: function (filteredTasks, term = "") {
       }
       li.innerHTML = `
           <span class="task-info"><strong>${tekstZadania}</strong> - ${task.data}</span>
+          <button onclick="document.todo.editTask(${index})">Edytuj</button>
           <button onclick="document.todo.removeTask(${index})">Usuń</button>
       `;
       taskList.appendChild(li);
