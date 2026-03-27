@@ -1,3 +1,312 @@
 body {
-  background-color: #f3fff3;
+  font-family: Arial, sans-serif;
+  background-color: #db6089;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.calosc {
+  transition: all 0.5s ease;
+  border-radius: 15px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ff8fb4;
+}
+
+.wybor_tla img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: fantasy;
+}
+
+#wyszukiwarka,
+#nowaPozycja,
+#DataDodanie {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  align-items: center;
+}
+
+#Lista {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family:
+    Bradley Hand,
+    cursive;
+}
+
+#Lista li {
+  background: #fff0f5;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: #c91487;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#potwierdzDodanie {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------- */
+/*MOTYW ZABKA*/
+body.motyw-zabka {
+  background: linear-gradient(135deg, #7dde80, #1d7e22);
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed; /*tlo nie ucieka przy przewijaniu*/
+}
+
+body.motyw-zabka .calosc {
+  border-radius: 15px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #219727;
+  height: fit-content;
+}
+
+body.motyw-zabka .calosc h1 {
+  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+  font-size: 60px;
+  color: #006400;
+  text-shadow: 4px 4px 4px rgba(93, 225, 102, 0.5);
+}
+
+body.motyw-zabka #wyszukiwarka,
+body.motyw-zabka #nowaPozycja,
+body.motyw-zabka #DataDodanie {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  align-items: center;
+}
+
+body.motyw-zabka #Lista {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family:
+    Courier New,
+    monospace;
+}
+
+body.motyw-zabka #Lista li {
+  background: #fff0f5;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.motyw-zabka .delete-btn {
+  background: #136a1a;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body.motyw-zabka #potwierdzDodanie {
+  background: #88d18a;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------- */
+/*MOTYW BIEDRONKA*/
+body.motyw-biedronka {
+  background: linear-gradient(135deg, #d0dc6a, #7e1d1d);
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed; /*tlo nie ucieka przy przewijaniu*/
+}
+
+body.motyw-biedronka .calosc {
+  border-radius: 15px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #d41a1a;
+  box-shadow: #ffee00 0px 10px 20px;
+  height: fit-content;
+}
+
+body.motyw-biedronka .calosc h1 {
+  font-family:
+    Cooper Black,
+    bold;
+  font-size: 60px;
+  color: #e4df55;
+  text-shadow: 4px 4px 4px rgb(233, 61, 52);
+}
+
+body.motyw-biedronka #wyszukiwarka,
+body.motyw-biedronka #nowaPozycja,
+body.motyw-biedronka #DataDodanie {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 2px solid #e8d757;
+  align-items: center;
+}
+
+body.motyw-biedronka #Lista {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body.motyw-biedronka #Lista li {
+  background: #ece086;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.motyw-biedronka .delete-btn {
+  background: #c72626;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body.motyw-biedronka #potwierdzDodanie {
+  background: #910000;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------- */
+/*MOTYW NETTO*/
+
+body.motyw-netto {
+  background: linear-gradient(135deg, #ebff39, #767657);
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed; /*tlo nie ucieka przy przewijaniu*/
+}
+
+body.motyw-netto .calosc {
+  border-radius: 15px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #d9bd33;
+  box-shadow: #000000 0px 10px 20px;
+  height: fit-content;
+}
+
+body.motyw-netto .calosc h1 {
+  font-family: FF Netto;
+  font-size: 60px;
+  color: #fff700;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+body.motyw-netto #wyszukiwarka,
+body.motyw-netto #nowaPozycja,
+body.motyw-netto #DataDodanie {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 2px solid #ffe100;
+  align-items: center;
+}
+
+body.motyw-netto #Lista {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family: Verdana, sans-serif;
+}
+
+body.motyw-netto #Lista li {
+  background: #fff07a;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.motyw-netto .delete-btn {
+  background: #eaff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+body.motyw-netto #potwierdzDodanie {
+  background: #eeff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }

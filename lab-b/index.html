@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,34 @@
     <script src="scripts.js" defer></script>
 </head>
 <body>
+    <div class="calosc">
+        <h1>Lista zakupów</h1>
 
+        <div class="search">
+            <input type="text" id="wyszukiwarka" placeholder="Szukaj...">
+        </div>
+
+        <ul id="Lista"></ul>
+
+        <form id="dodawanie">
+            <input type="text" id="nowaPozycja" placeholder="Wpisz nową pozycję" required />
+            <input type="date" id="DataDodanie" />
+            <button type="submit" id="potwierdzDodanie">Dodaj</button>
+        </form>
+
+        <div id="zmianaTła">
+            <h6>Wybierz motyw:</h6>
+        </div>
+
+        <div class="wybor_tla">
+            <img src="wroc.png" class="ikonka_wroc" onclick="zmienTlo('motyw-wroc')">
+            <img src="zabka.png" class="ikonka_zabka" onclick="zmienTlo('motyw-zabka')">
+            <img src="b.png" class="ikonka_biedronka" onclick="zmienTlo('motyw-biedronka')">
+            <img src="netto.png" class="ikonka_netto" onclick="zmienTlo('motyw-netto')">
+        </div>
+
+
+    </div>
 </body>
+
 </html>
