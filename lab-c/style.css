@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images_lab_c/images.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /*nie powiela tla*/
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+/* lewa kolumna - stała szerokość */
+.sidebar_left {
+  position: sticky;
+  top: 0;
+  flex: 0 0 700px;
+  width: 700px;
+  min-width: 700px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  overflow: hidden;
+}
+
+/* DORA */
+.dora_image {
+  width: auto;
+  height: 100vh;
+  max-height: 100vh;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25));
+}
+
+/* PRAWA CZESC Z PUZZLAMI */
+.puzzle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #000000;
+  border-radius: 30px;
+  margin-top: 20px;
+  flex: 1;
+  min-width: 630px;
+  padding: 10px 0 40px;
+  padding: 30px;
+  width: 100%;
+  background-color: #84cdc4;
+  font-family: "Arial Rounded MT Bold", "Helvetica", sans-serif;
+}
+
+#positionInfo {
+  text-align: center;
+  padding: 10px;
+}
+
+#map {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#rasterMap {
+  width: 600px;
+  height: 300px;
+}
+
+/* miejsce gdzie znajduja sie rozsypane puzzle */
+#piecesContainer {
+  width: 625px;
+  min-height: 120px;
+  border: 2px solid #000000;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-left: 0;
+}
+
+/* puzzle */
+.piece-slot {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* plansza na ktorej ukladamy puzzle v1*/
+#boardContainer {
+  width: 625px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 150px);
+  gap: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+/* plansza na ktorej ukladamy puzzle v1*/
+.plansza {
+  width: 300px;
+  height: 150px;
+  border: 3px solid rgb(0, 0, 0);
+  border-width: 1.5px;
+}
+
+.piece {
+  width: 300px;
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  border-width: 1.5px;
+  cursor: grab;
+  box-sizing: border-box;
+}

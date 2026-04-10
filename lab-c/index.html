@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="leaflet-1.9.4/leaflet.css" />
+    <script src="leaflet-1.9.4/leaflet-src.js"></script>
+    <script src="leaflet-1.9.4/leaflet-providers.js"></script>
+    <script src="leaflet-1.9.4/leaflet-image.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <aside class="sidebar_left">
+            <img src="images_lab_c/dora.png" alt="Dora" class="dora_image">
+        </aside>
+
+        <main class="puzzle">
+            <h1>Wyrusz na wyprawę z Dorą! Ułóż puzzle!</h1>
+            <div id="map"></div>
+
+            <!-- MAPA -->
+            <button id="getLocation">Moja lokalizacja</button>
+            <button id="saveButton">Pobierz mapę</button>
+            <br>
+            <!-- GEOLOKALIZACJA -->
+            <div id="positionInfo">
+                <strong>Latitude:</strong> <span id="latitude"></span><br>
+                <strong>Longitude:</strong> <span id="longitude"></span><br>
+            </div>
+
+            <canvas id="rasterMap" width="600" height="300"></canvas>
+
+            <h3>Twoje puzzle: </h3>
+            <div id="piecesContainer">
+                <div class="piece-slot"></div>
+                <div class="piece-slot"></div>
+                <div class="piece-slot"></div>
+                <div class="piece-slot"></div>
+            </div>
+            <h3>Plansza: </h3>
+            <div id="boardContainer"></div>
+        </main>
+
+    </div>
+</body>
+
+</html>
