@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e1d855;
+}
+
+.Minionki-header{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/920713_1_07-10minions_standard.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #e1d855;
+    font-family: 'Courier New';
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 0;
+}
+
+.Krotko-o-Minionkach{
+    background-size: 70%;
+    background-color: #FFFF99;
+    border: double 3px black;
+    padding: 20px;
+    text-align: center;
+    background-size: 80%;
+    text-align: justify
+
+}
+
+.Krotko-o-Minionkach h2{
+    text-align: center !important;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.Lista{
+    text-align: center;
+    background-color: #ffff00;
+    border: solid 3px black;
+    border-size: 60%;
+    padding: 20px;
+    margin-top: 20px;
+    width: fit-content;
+    text-align: justify;
+    margin: 50px auto 0 auto;
+}
+
+.Lista h3 {
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center !important;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.Lista ul,.Lista ol{
+    list-style: none;
+    padding:0;
+}
+
+.Lista li::before{
+    content: "🍌";
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.wiecej-o-Minionkach{
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    text-align: center ;
+    width: 90%;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+}
+
+.wiecej-o-Minionkach h2{
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.ciekawostki-o-Minionkach {
+    margin: 30px auto 0 auto;
+    width: 90%;
+    background-image: url('images/despicable-me-movies-cgi-minions-wallpaper-preview.jpg');
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    border: double 3px black;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+.ciekawostki-o-Minionkach h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.jeszcze-wiecej-o-Minionkach{
+    margin: 30px auto 0 auto;
+    width: 90%;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.jeszcze-wiecej-o-Minionkach h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.geneza-Minionków{
+    margin: 30px auto 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+    padding: 20px;
+}
+
+.geneza-Minionków h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.sukces-Minionków{
+    margin: 30px auto 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    border-block: yellow;
+    border: double 3px black;
+    border-size: 60%;
+    padding: 20px;
+
+}
+
+.sukces-Minionków h2{
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+.stopka{
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
