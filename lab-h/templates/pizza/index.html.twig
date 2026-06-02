@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pizza index{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Pizza index</h1>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for pizza in pizzas %}
+                    <tr>
+                        <td>{{ pizza.id }}</td>
+                        <td>{{ pizza.name }}</td>
+                        <td>{{ pizza.description }}</td>
+                        <td>{{ pizza.price }}</td>
+                        <td>
+                            <a href="{{ path('app_pizza_show', {'id': pizza.id}) }}">show</a>
+                            <a href="{{ path('app_pizza_edit', {'id': pizza.id}) }}">edit</a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="5">no records found</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <a href="{{ path('app_pizza_new') }}">Create new</a>
+    </div>
+{% endblock %}
