@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pizza index</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizza index</h1>
+
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <% if (pizzas.length > 0) { %>
+              <% pizzas.forEach(function (pizza) { %>
+                <tr>
+                  <td><%= pizza.id %></td>
+                  <td><%= pizza.name %></td>
+                  <td><%= pizza.description %></td>
+                  <td><%= pizza.price %></td>
+                  <td>
+                    <a href="/pizzas/<%= pizza.id %>">show</a>
+                    <a href="/pizzas/<%= pizza.id %>/edit">edit</a>
+                  </td>
+                </tr>
+              <% }) %>
+            <% } else { %>
+              <tr>
+                <td colspan="5">no records found</td>
+              </tr>
+            <% } %>
+          </tbody>
+        </table>
+      </div>
+
+      <a href="/pizzas/create">Create new</a>
+    </div>
+  </body>
+</html>

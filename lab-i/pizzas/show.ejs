@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Pizza</h1>
+
+      <div class="table-responsive">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Id</th>
+              <td><%= pizza.id %></td>
+            </tr>
+            <tr>
+              <th>Name</th>
+              <td><%= pizza.name %></td>
+            </tr>
+            <tr>
+              <th>Description</th>
+              <td><%= pizza.description %></td>
+            </tr>
+            <tr>
+              <th>Price</th>
+              <td><%= pizza.price %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <a href="/pizzas">back to list</a>
+
+      <a href="/pizzas/<%= pizza.id %>/edit">edit</a>
+
+      <form action="/pizzas/<%= pizza.id %>/delete" method="post">
+        <button type="submit">Delete</button>
+      </form>
+    </div>
+  </body>
+</html>
