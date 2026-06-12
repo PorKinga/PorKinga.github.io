@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Pizza CRUD{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.min.css') }}">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('pizza_index') }}">Pizzas</a></li>
+        <li><a href="{{ url_for('pizza_create') }}">Create new</a></li>
+    </ul>
+</nav>
+<main>
+    {% block content %}{% endblock %}
+</main>
+<footer>
+    &copy; 2026 Custom Framework
+</footer>
+</body>
+</html>

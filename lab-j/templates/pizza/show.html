@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}Pizza show{% endblock %}
+
+{% block content %}
+<h1>Pizza show</h1>
+
+<p><strong>id:</strong> {{ pizza.id }}</p>
+<p><strong>name:</strong> {{ pizza.name }}</p>
+<p><strong>price:</strong> {{ pizza.price }}</p>
+<p><strong>description:</strong> {{ pizza.description }}</p>
+
+<a href="{{ url_for('pizza_index') }}">back to list</a>
+<a href="{{ url_for('pizza_edit', id=pizza.id) }}">edit</a>
+
+<form method="post" action="{{ url_for('pizza_delete', id=pizza.id) }}">
+    <button type="submit">delete</button>
+</form>
+{% endblock %}

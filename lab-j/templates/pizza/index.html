@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}Pizza index{% endblock %}
+
+{% block content %}
+<h1>Pizza index</h1>
+
+<a href="{{ url_for('pizza_create') }}">Create new</a>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>price</th>
+        <th>description</th>
+        <th>actions</th>
+    </tr>
+
+    {% for pizza in pizzas %}
+        <tr>
+            <td>{{ pizza.id }}</td>
+            <td>{{ pizza.name }}</td>
+            <td>{{ pizza.price }}</td>
+            <td>{{ pizza.description }}</td>
+            <td>
+                <a href="{{ url_for('pizza_show', id=pizza.id) }}">show</a>
+                <a href="{{ url_for('pizza_edit', id=pizza.id) }}">edit</a>
+
+                <form method="post" action="{{ url_for('pizza_delete', id=pizza.id) }}" style="display:inline;">
+                    <button type="submit">delete</button>
+                </form>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}
